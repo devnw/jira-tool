@@ -283,8 +283,8 @@ func printHelp() {
 	fmt.Println("In the delete command, no additional fields are required")
 	fmt.Println("At any point, a new descriptor line can be written, modifying the command/fields of the tool")
 	fmt.Println("Example.csv:")
-	fmt.Println("update, title, hostname\nVRRDEV2, VRRDEV2-00000, newhost\nVRRDEV2, VRRDEV2-00001, changehost\nupdate, title, hostname, mac address\nVRRDEV2, VRRDEV2-00002, anotherhost, AB:BA:AB:BA\ndelete, title\nVRRDEV2, VRRDEV2-00003")
-	fmt.Printf("Please note that in each data line uses VRRDEV2 as the project\n\n")
+	fmt.Println("update, title, hostname\nAegisDEV2, AegisDEV2-00000, newhost\nAegisDEV2, AegisDEV2-00001, changehost\nupdate, title, hostname, mac address\nAegisDEV2, AegisDEV2-00002, anotherhost, AB:BA:AB:BA\ndelete, title\nAegisDEV2, AegisDEV2-00003")
+	fmt.Printf("Please note that in each data line uses AegisDEV2 as the project\n\n")
 }
 
 func removeNonASCIICharacters(s string) string {
