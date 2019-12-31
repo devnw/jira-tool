@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/crypto"
 	"github.com/nortonlifelock/database/dal"
 	"github.com/nortonlifelock/domain"
 	"github.com/nortonlifelock/jira"
 	"github.com/nortonlifelock/log"
+	"github.com/pkg/errors"
 )
 
 const (

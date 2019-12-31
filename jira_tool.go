@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nortonlifelock/jira-tool/tool"
 	"github.com/nortonlifelock/config"
 	"github.com/nortonlifelock/database"
 	"github.com/nortonlifelock/domain"
 	"github.com/nortonlifelock/files"
+	"github.com/nortonlifelock/jira-tool/tool"
 )
 
 var (
